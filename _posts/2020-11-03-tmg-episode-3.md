@@ -25,10 +25,3 @@ In this episode of the Tuesday Morning Grind we talk about the importance of too
 
 Effectively selection and implementation of tools also help organizations standardize the processes, and even enhance employee engagement and efficiency. When teams can standardize processes and get team buy in across the organization, implementing effective security controls and meeting compliance requirements becomes much simpler.
 Listen in for our off the cuff thoughts and experiences.
-
-### More About The Tuesday Morning Grind
-
-The Tuesday Morning Grind is a podcast I do every Tuesday at 7am with my teammate, [Christian Hyatt](https://www.linkedin.com/in/christianhyatt/).  You can watch the livestream on [Twitch](https://www.twitch.tv/risk3sixty), catch the video later on [Youtube](https://www.youtube.com/channel/UCjcD3Vc3Z1FSncd2BvRp9vQ/featured) or subscribe on your platform of choice over at [Anchor FM](https://anchor.fm/risk3sixty).
-
-
-
