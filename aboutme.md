@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: If you really want to know me, we have to get coffee.
+subtitle: If you really want to know about me, we should get coffee.
 ---
 
 My name is Shane Peden and to be honest, I'm not a huge fan of about me pages. If you really think we should get to know each other, we should have coffee some time.
