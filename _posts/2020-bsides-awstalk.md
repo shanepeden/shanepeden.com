@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Conference Talk  - BSides ATL 2020
+title: Conference Talk - BSides ATL 2020
 subtitle: Detect: Conquering the Cloud: Defense-in-Depth Strategies for Amazon Web Services
-date:   	2021-09-02
+date: 2021-09-02
 tags: [SecurityProgram, Cloud, DevOps]
 comments: false
 ---
