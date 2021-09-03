@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Healthcare Start-Up Security Strategy
-subtitle: Whitepaper- Security is table stakes for healthcare start-ups
+subtitle: Whitepaper - Security is table stakes for healthcare start-ups
 date:   	2021-09-03
 tags: [whitepaper, HealthcareIT, HITRUST]
 comments: false

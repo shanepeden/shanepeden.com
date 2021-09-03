@@ -1,7 +1,7 @@
 ---
 layout: post
-title: DevSecOps
-subtitle: Whitepaper- Strategies to Integrate Security into the SDLC
+title: Whitepaper - DevSecOps
+subtitle: Strategies to Integrate Security into the SDLC
 date:   	2021-09-03
 tags: [whitepaper, SDLC, DevOps]
 comments: false

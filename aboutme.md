@@ -10,4 +10,4 @@ Learn more about my professional background over on [Linkedin](https://www.linke
 
 ### Shane's Favorite North Metro Atlanta Area Coffee Shops
 
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1UOxSTnHDPwGA3wVE34Q-N0LzfhWsOE9d" width="640" height="480"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1UOxSTnHDPwGA3wVE34Q-N0LzfhWsOE9d" width="640" height="480" style="margin: 0 auto; display:block;"></iframe>
