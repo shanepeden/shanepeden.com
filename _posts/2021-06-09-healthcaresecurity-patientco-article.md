@@ -66,4 +66,4 @@ Are users trained on spotting suspicious emails, and not to click on links or op
 
 No health system should have to decide between improving patient care or covering the high cost of an unexpected ransomware attack. Examine the health and wellness of your IT infrastructure—just like a patient—to prevent long-term issues down the line.
 
-{: .box-note} Note: This post was originally published on June 9th, 2021 on [SecurityMagazine.com](https://www.securitymagazine.com/articles/95381-clinical-treatment-of-ransomware-in-healthcare).
+> This post was originally published on June 9th, 2021 on [SecurityMagazine.com](https://www.securitymagazine.com/articles/95381-clinical-treatment-of-ransomware-in-healthcare).
