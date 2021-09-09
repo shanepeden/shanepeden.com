@@ -40,20 +40,20 @@ IT Auditors and Security Assessors often have a hard time understanding the risk
 	- Map the process in plain English as a narrative.
 	- Identify tools, scripts, plugins, and key processes along the way.
 
-![Map the Process](https://github.com/r3s-shane/r3s-shane.github.io/blob/master/img/TMG-Ep8-mapprocess.jpg?raw=true)
+![Map the Process](https://raw.githubusercontent.com/shanepeden/shanepeden.com/master/assets/img/TMG-Ep8-mapprocess.jpg?raw=true)
 
 #### Identify Control Points ####
 + Based on your narrative, start identifying control points.
 	- Remember that some control points may not yet be audit ready. Some may be automated while others are manual.
 
-![Control Points](https://github.com/r3s-shane/r3s-shane.github.io/blob/master/img/TMG-Ep8-controlpoints.jpg?raw=true)
+![Control Points](https://raw.githubusercontent.com/shanepeden/shanepeden.com/master/assets/img/TMG-Ep8-controlpoints.jpg?raw=true)
 
 #### Identify Opportunities for Security Integration ####
 + My DevSecOps white paper has a breakdown of various security integration opportunities throughout the DevOps lifecycle.
 	- Remember, not all tools will fit all teams. Some are language dependent, others may only work on one cloud platform or another.
 	- Shoot me a message on [Linkedin](https://www.linkedin.com/in/speden/) if you're interested in getting a copy of the whitepaper.
 
-![Find Security Integration](https://github.com/r3s-shane/r3s-shane.github.io/blob/master/img/TMG-Ep8-securityintegration.jpg?raw=true)
+![Find Security Integration](https://raw.githubusercontent.com/shanepeden/shanepeden.com/master/assets/img/TMG-Ep8-securityintegration.jpg?raw=true)
 
 
 #### Other Episodes in this Series ####
