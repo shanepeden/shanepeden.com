@@ -1,6 +1,6 @@
 ---
 layout: 	post
-title:  	Clinical treatment of ransomware in healthcare
+title:  	Clinical Treatment of Ransomware in Healthcare
 subtitle: 	Originally Posted in Security Magazine
 date:   	2021-06-09
 author: 	Shane Peden
