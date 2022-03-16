@@ -18,12 +18,21 @@ After spending three years as a consultant and nearly one year as a full-time em
 
 Once I slotted into a full-time role at Patientco, leadership started leaning on me to solve much bigger problems than I was ever tasked with as a consultant. Our Information Risk Team had high expectations for my business function.
 
-Initially, I figured this would be a piece of cake. I’d manage the risk initiatives like I always had in the past, by drafting a plan of action, finding champions in the business to help me drive the initiative, and seeing it through. But there was a key difference between these challenges and the ones I was used to dealing with as a consultant. There was no audit or certification on the line and most of the problems I faced required getting the support of Engineering and DevOps to fix!
+Initially, I figured this would be a piece of cake. I’d manage the risk initiatives like I always had in the past, by drafting a plan of action, finding champions in the business to help me drive the initiative, and seeing it through. But there was a key difference between these challenges and the ones I was used to dealing with as a consultant. There was no audit or certification on the line to force the initiatives ahead and most of the problems I faced required getting the support of Engineering and DevOps to fix!
 
-If you’ve ever worked with software engineers before, you know they can be a little like cats (or honey badgers).
+If you’ve ever worked with software engineers before, you know they can be a little like cats (or [honey badgers](https://www.youtube.com/watch?v=4r7wHMg5Yjg)).
 
-I eventually learned the path to success was through the Product Management team. If I was to get anything done, I needed to get my initiatives prioritized by product, and represented in the engineering team’s backlogs and Kanban boards.  
+I eventually learned the path to success was through the Product Management team. If I was to get anything done, I needed to get my initiatives prioritized by Product, and broke down into tasks on the Engineering team’s backlogs and Kanban boards.  
 
 ## A Logical Evolution from Security and Compliance to the Product World
 
 That decision to start inviting myself to the Product team meetings spurred a change of gears and perspective for me. I learned that the Product team’s approach to helping drive the direction of the product was not dissimilar to how I naturally operated as a consultant.
+
+Elite auditors, security, and compliance professionals need deep business context and an understanding of how the various pieces of the puzzle fit together to operate at peak performance. Product Management is no different, but I argue to take it to another level. Not only must they understand the inner workings of the organization but also have insane market and customer awareness to be successful.
+
+Amazingly, after getting about eight months of exposure to the Product team at Patientco, I was offered two jobs in product management within a month of each other in late 2022. Each came unsolicited and from friends in the marketplace who did not know each other.
+I was convinced it was a God thing and decided I had to seize the opportunity.
+
+Now I have found myself as of November 2022, the Co-Product Manager of a rapidly growing SaaS organization trying to take their platform to the next level and hopefully set us up for a successful exit in the next five years.
+
+My goal moving forward is to be more intentional about documenting some of this journey, as I did a poor job of that in my last role. There is a lot of new territories to cover, and there should be no shortage of topics to cover!
