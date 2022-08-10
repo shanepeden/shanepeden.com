@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tactful and Graceful Honesty
-subtitle: When Leading Others, Honesty Must Come Above All Else
+title: PCI DSS v4.0 Global Symposium
+subtitle: Detailed notes from the Global Symposium published in July of 2022
 date:   	2022-08-10
 tags: [SecurityProgram, ITAudit]
 comments: false
@@ -15,7 +15,7 @@ The symposium also added a lot of clarification on PCI’s perspective and inten
 
 I have taken detailed notes from the entire session for future reference. If you happened upon this page, via Linkedin or Google Search, please hope over to LinkedIn to say high and be sure to connect with me!
 
-PCI DSS v4.0 has been expanded in its philosophy to also be utilized to protect against threats and secure other elements of the payment card ecosystem beyond the Card Data Environment (CDE). As the payment industry continues to evolve, PCI has worked towards a more broad framework that can be used as an effective security baseline across fintech infrastructure.
+PCI DSS v4.0 has been expanded in its philosophy to also be utilized to protect against threats and secure other elements of the payment card ecosystem beyond the Card Data Environment (CDE). As the payment industry continues to evolve, PCI has worked towards a more broad framework that cans be used as an effective security baseline across fintech infrastructure.
 
 
 ## PCI DSS v4.0 Update Highlights
