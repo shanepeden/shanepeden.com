@@ -26,7 +26,7 @@ The 12 PCI requirements are now referred to as the 12 Principal Requirements. So
 
 Some key updates include:
 
-* **Requirement** 1 has been updated firewall terminology to more broadly address network security controls to support the broader range of technologies traditionally met by firewalls.
+* **Requirement 1** has been updated firewall terminology to more broadly address network security controls to support the broader range of technologies traditionally met by firewalls.
 * **Requirement 2** has been officially expanded beyond addressing vendor-supplied defaults to address secure configuration management more broadly.
 * **Requirement 3** has been expanded to emphasize that account data and not just cardholder data needs to be protected
 * **Requirement 4** has been modified to add more specific requirements around the use of strong cryptography.
@@ -51,11 +51,11 @@ PCI has updated its applicability information to add additional clarity around w
 {: .box-warning} Note that PCI restates that Sensitive Authentication Data (SAD) is never permitted to be stored, even if Primary Account Numbers (PAN) are not present. PCI DSS also applies to organizations that transmit or process SAD and are also required to comply with PCI DSS 4.0.
 
 
-### Simplifying the Definition of Account Data, Cardholder Data, Card Data Environment, and Sensitive Authentication Data
+### Updated PCI DSS Definitions
+
+PCI has simplified the definition of multiple key terms including Cardholder Data, Card Data Environment, and Sensitive Authentication Data
 
 **Cardholder Data (CHD) includes:**
-
-
 
 * Primary Account Number (PAN)
 * Cardholder Name
@@ -64,26 +64,18 @@ PCI has updated its applicability information to add additional clarity around w
 
 **Sensitive Authentication Data (SAD) includes:**
 
-
-
 * Full track data (magnetic stripe data or equivalent data on a chip)
 * Card verification code
 * PINs/PIN block
 
 **Card Data Environment (CDE) includes:**
 
-
-
 * System components, people, and processes that store, process, and transmit CHD and/or SAD
 * System components that may not store, process, transmit CHD or SAD but have unrestricted access to system components that do store, process, transmit CHD or SAD
 * System components, people, or processes that could impact the security of the CDE.
 
 
-### PCI Terms are Not Interchangeable
-
-PCI has also re-inforced its use of different terms for different types of data processed during payment card transactions. These are specified on purpose, due to different parts of the standard being very specific on the various security requirements for different data elements.
-
-For example- if PCI DSS states that the PAN needs encrypted, they are only requiring encryption of PAN and not the broader family of cardholder data.
+{: .box-warning} **PCI Terms are Not Interchangeable**:  PCI has also reinforced its use of different terms for different types of data processed during payment card transactions. Different terms are purposely used to provide context around the security requirements required for the various data elements present in payment card transaction processing. <br>For example- if PCI DSS states that the PAN needs encrypted, they are only requiring encryption of PAN and not the broader family of cardholder data.
 
 **Relationship between PCI DSS and PA DSS**
 
@@ -108,13 +100,11 @@ If a third party receives encrypted data and cannot decrypt the data, it may be 
 **Use of Third-Party Service Providers (Requirement 12.8)**
 
 
-
 * Third parties do not need to be PCI DSS certified for the assessed org to become certified
 * If a third party is used to meet a PCI requirement, the organization cannot be compliant without the third party also demonstrating they meet the requirements. Their compliance need to be validated via their AOC, or via the audit extending to the third party (on-demand assessment).
 * The Third-Party Service Provider's evidence of compliance can be obtained via the Payment Brand List(s) of PCI DSS Compliant Service Providers if it is clear that the certification is related to the services used.
 
 **Sampling for PCI DSS Assessments**
-
 
 
 * If automated processes are in use, 100% of the population should be used if possible
