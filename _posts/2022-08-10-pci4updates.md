@@ -16,7 +16,7 @@ The symposium also added a lot of clarification on PCI’s perspective and inten
 PCI DSS v4.0 has been expanded in its philosophy to also be utilized to protect against threats and secure other elements of the payment card ecosystem beyond the Card Data Environment (CDE). As the payment industry continues to evolve, PCI has worked towards a more broad framework that can be used as an effective security baseline across fintech infrastructure.
 
 {: .box-note}
-I have taken detailed notes from the entire session for future reference. If you happened upon this page, via Linkedin or Google Search, please hop over to [LinkedIn](https://www.linkedin.com/in/speden/) to say hi and be sure to connect with me!
+**Let's Connect!** <br>I have taken detailed notes from the entire session for future reference. If you happened upon this page, via Linkedin or Google Search, please hop over to [LinkedIn](https://www.linkedin.com/in/speden/) to say hi and be sure to connect with me!
 
 
 ### PCI DSS v4.0 Update Highlights
@@ -50,7 +50,7 @@ PCI has updated its applicability information to add additional clarity around w
 * Entities that could impact the security of the cardholder data environment
 
 {: .box-warning}
-Note that PCI restates that Sensitive Authentication Data (SAD) is never permitted to be stored, even if Primary Account Numbers (PAN) are not present. PCI DSS also applies to organizations that transmit or process SAD and are also required to comply with PCI DSS 4.0.
+Note that PCI restates that Sensitive Authentication Data (SAD) is never permitted to be stored. Even if Primary Account Numbers (PANs) are not present, organizations that transmit or process SAD are also required to comply with PCI DSS 4.0.
 
 
 ### Updated PCI DSS Definitions
@@ -76,36 +76,24 @@ PCI has simplified the definition of multiple key terms including Cardholder Dat
 * System components that may not store, process, transmit CHD or SAD but have unrestricted access to system components that do store, process, transmit CHD or SAD
 * System components, people, or processes that could impact the security of the CDE.
 
-
-{: .box-warning}
-**PCI Terms are Not Interchangeable**:  PCI has also reinforced its use of different terms for different types of data processed during payment card transactions. Different terms are purposely used to provide context around the security requirements required for the various data elements present in payment card transaction processing. <br>For example- if PCI DSS states that the PAN needs encrypted, they are only requiring encryption of PAN and not the broader family of cardholder data.
-
-**Relationship between PCI DSS and PA DSS**
-
-PA DSS is being deprecated in favor of the PCI Software Security Framework PCI SSF can be leveraged in conjunction with requirement 6 of PCI DSS as needed.
-
 **Bespoke and Customer Software**
-
-
 
 * Bespoke software is defined as software developed by a 3rd party to the organization’s specific specifications.
 * Customer software is defined as software developed by the organization for its use.
 
+{: .box-warning}
+**PCI Terms are Not Interchangeable**:  PCI has also reinforced its use of different terms for different types of data processed during payment card transactions. Different terms are purposely used to provide context around the security requirements required for the various data elements present in payment card transaction processing. <br><br>For example- if PCI DSS states that the PAN needs encrypted, they are only requiring encryption of PAN and not the broader family of cardholder data.
 
-### Expansion of Rogue Wireless Detection Requirements
+### Other Highlights of Note
+A few other pieces of interesting information were shared in the PCI DSS 4.0 highlighted updates.
 
-PCI requires rogue wireless detection even when wireless is not used within the CDE, and a policy prohibits the use of wireless devices.
-
-Encrypted Cardholder Data and Impact to PCI DSS Scot of Third Party Service Providers
-
-If a third party receives encrypted data and cannot decrypt the data, it may be provided out of scope.
-
-**Use of Third-Party Service Providers (Requirement 12.8)**
-
-
-* Third parties do not need to be PCI DSS certified for the assessed org to become certified
-* If a third party is used to meet a PCI requirement, the organization cannot be compliant without the third party also demonstrating they meet the requirements. Their compliance need to be validated via their AOC, or via the audit extending to the third party (on-demand assessment).
-* The Third-Party Service Provider's evidence of compliance can be obtained via the Payment Brand List(s) of PCI DSS Compliant Service Providers if it is clear that the certification is related to the services used.
+* **Relationship between PCI DSS and PA DSS:**PA DSS is being deprecated in favor of the PCI Software Security Framework PCI SSF can be leveraged in conjunction with requirement 6 of PCI DSS as needed.
+* **Expansion of Rogue Wireless Detection Requirements:** PCI requires rogue wireless detection even when wireless is not used within the CDE, and a policy prohibits the use of wireless devices.
+* **Encrypted Cardholder Data and the Impact to Third Party Service Providers:** If a third party receives encrypted data and cannot decrypt the data, it may be provided out of scope.
+* **Use of Third-Party Service Providers (Requirement 12.8):**
+  * Third parties do not need to be PCI DSS certified for the assessed org to become certified
+  * If a third party is used to meet a PCI requirement, the organization cannot be compliant without the third party also demonstrating they meet the requirements. Their compliance need to be validated via their AOC, or via the audit extending to the third party (referred to as an on-demand assessment).
+  * The Third-Party Service Provider's evidence of compliance can be obtained via the Payment Brand List(s) of PCI DSS Compliant Service Providers if it is clear that the certification is related to the services used.
 
 **Sampling for PCI DSS Assessments**
 
