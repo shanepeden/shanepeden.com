@@ -99,6 +99,23 @@ PCI has simplified the definition of multiple key terms including Cardholder Dat
 {: .box-warning}
 **PCI Terms are Not Interchangeable**:  PCI has also reinforced its use of different terms for different types of data processed during payment card transactions. Different terms are purposely used to provide context around the security requirements required for the various data elements present in payment card transaction processing. <br><br>For example- if PCI DSS states that the PAN needs encrypted, they are only requiring encryption of PAN and not the broader family of cardholder data.
 
+### Use of Third-Party Service Providers (Requirement 12.8):
+
+* **When relying on Third Party Service Providers to demonstrate PCI DSS Compliance:**
+  * Third parties do not need to be PCI DSS certified for the assessed organization to become certified **BUT**
+  * If a third party is used to meet a PCI requirement, the organization cannot be compliant without the third party also demonstrating they meet the requirements.
+  * Third party compliance must be validated via their Attestation Of Compliance, **OR** via the organization's PCI assessment extending to the third party (referred to as an **on-demand assessment**).
+  * The third party service provider's evidence of compliance can be obtained via the Payment Brand List(s) of PCI DSS Compliant Service Providers (e.g., (Visa)[https://www.visa.com/splisting/searchGrsp.do]) if it is clear that the certification is related to the services used.
+
+
+### Approaches for Implementing and Validating PCI DSS
+
+Organizations now have two approaches for implementing and validating PCI DSS. Organizations now have more flexibility in demonstrating compliance and obtaining certification.
+
+* **Defined Approach:** Follows current PCI DSS requirements and the testing procedures provide a defined methodology for meeting all security objectives.
+* **Customize Approach:** This new approach allows the organization to develop its controls to meet the security objectives. This approach should only be undertaken by a mature organization with well-established security programs. This approach is more appropriate for organizations utilizing newer technologies. The updated PCI DSS standard provides two appendices with templates to follow to complete the customized approach.
+
+
 
 ### Other Highlights of Note
 A few other pieces of interesting information were shared in the PCI DSS 4.0 highlighted updates.
@@ -106,33 +123,12 @@ A few other pieces of interesting information were shared in the PCI DSS 4.0 hig
 * **Relationship between PCI DSS and PA DSS:**PA DSS is being deprecated in favor of the PCI Software Security Framework PCI SSF can be leveraged in conjunction with requirement 6 of PCI DSS as needed.
 * **Expansion of Rogue Wireless Detection Requirements:** PCI requires rogue wireless detection even when wireless is not used within the CDE, and a policy prohibits the use of wireless devices.
 * **Encrypted Cardholder Data and the Impact to Third Party Service Providers:** If a third party receives encrypted data and cannot decrypt the data, it may be provided out of scope.
-* **Use of Third-Party Service Providers (Requirement 12.8):**
-  * Third parties do not need to be PCI DSS certified for the assessed org to become certified
-  * If a third party is used to meet a PCI requirement, the organization cannot be compliant without the third party also demonstrating they meet the requirements. Their compliance need to be validated via their AOC, or via the audit extending to the third party (referred to as an on-demand assessment).
-  * The Third-Party Service Provider's evidence of compliance can be obtained via the Payment Brand List(s) of PCI DSS Compliant Service Providers if it is clear that the certification is related to the services used.
-
-
-
-
-
-
-### Approaches for Implementing and Validating PCI DSS
-
-Organizations now have two approaches for implementing and validating PCI DSS. Organizations now have more flexibility in demonstrating compliance and obtaining certification.
-
-
-
-* Defined Approach: Follows current PCI DSS requirements and the testing procedures provide a defined methodology for meeting all security objectives.
-* Customize Approach: This new approach allows the organization to develop its controls to meet the security objectives. This approach should only be undertaken by a mature organization with well-established security programs. This approach is more appropriate for organizations utilizing newer technologies. The updated PCI DSS standard provides two appendices with templates to follow to complete the customized approach.
-
 
 
 
 ### Requirement 1 Updates:
 
 There are no new requirements but there are some impactful clarifications.
-
-
 
 * Networking Changes must be made per requirement 6 formal change management controls.
 * Configuration Files must be secured and kept consistent, even in cloud environments.
