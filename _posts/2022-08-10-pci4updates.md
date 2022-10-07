@@ -40,11 +40,26 @@ Some key updates include:
 * **Requirements 11** was been expanded to require the security testing of both system components and networks regularly.
 * **Requirement 12** has been updated to better define the overarching goal of both security policies and procedures.
 
+### PCI DSS 4.0: High Impact Changes
+
+All changes are included in the Summary of Changes document. This section only details the most impactful changes.
+
+**Overarching Changes to Be Mindful of:**
+
+* **Guidance vs Requirements:** Guidance clarifies requirements but doesn’t define them. Guidance may now provide some examples of technologies used, or approaches to meeting requirements, but it is not PCI’s defined approach to meeting a requirement.
+* **Targeted Risk Analysis:** Some requirements now allow the business to define the frequency that the Control is performed based on the business needs and risks relevant to the organization, as opposed to the standard defining the frequency.
+  * A Targeted Risk Analysis must be performed for all these requirements.
+  * PCI expects organizations to document their risk analysis and timeframes in policies and procedures, and adhere to them. The assessor’s job will be to verify completion per company policy.
+  * Organizations need to perform activities as close to the specified interval without exceeding it.
+* **Customized Approach:** This is a type of targeted risk analysis that allows for more flexibility in meeting a requirement with emerging technology.
+* **Roles and Responsibilities:** The updated standard now requires formally defining the roles and responsibilities required to perform various tasks and controls to meet the requirements.
+* **Sampling for PCI DSS Assessments**
+  * If automated processes are in use, 100% of the population should be used if possible
+  * If an automated process cannot be utilized, sampling is an option based on the assessor’s discretion.
 
 ### PCI DSS Applicability Information
 
 PCI has updated its applicability information to add additional clarity around which entities the standard is addressed to. Some key modifications added in version 4.0 include:
-
 
 * PCI DSS is intended for entities that store, process or transmit cardholder data and/or sensitive authentication data **AND**
 * Entities that could impact the security of the cardholder data environment
@@ -84,6 +99,7 @@ PCI has simplified the definition of multiple key terms including Cardholder Dat
 {: .box-warning}
 **PCI Terms are Not Interchangeable**:  PCI has also reinforced its use of different terms for different types of data processed during payment card transactions. Different terms are purposely used to provide context around the security requirements required for the various data elements present in payment card transaction processing. <br><br>For example- if PCI DSS states that the PAN needs encrypted, they are only requiring encryption of PAN and not the broader family of cardholder data.
 
+
 ### Other Highlights of Note
 A few other pieces of interesting information were shared in the PCI DSS 4.0 highlighted updates.
 
@@ -95,19 +111,9 @@ A few other pieces of interesting information were shared in the PCI DSS 4.0 hig
   * If a third party is used to meet a PCI requirement, the organization cannot be compliant without the third party also demonstrating they meet the requirements. Their compliance need to be validated via their AOC, or via the audit extending to the third party (referred to as an on-demand assessment).
   * The Third-Party Service Provider's evidence of compliance can be obtained via the Payment Brand List(s) of PCI DSS Compliant Service Providers if it is clear that the certification is related to the services used.
 
-**Sampling for PCI DSS Assessments**
 
 
-* If automated processes are in use, 100% of the population should be used if possible
-* If an automated process cannot be utilized, sampling is an option based on the assessor’s discretion.
 
-**Frequency Expected for Timeframes called out in PCI DSS Requirements**
-
-PCI DSS has updated the standard to allow organizations to set their timelines for completing some tasks based on the business needs and risks relevant to the organization.
-
-PCI expects organizations to document their timeframes in policies and procedures, and adhere to them. The assessor’s job will be to verify completion per company policy.
-
-Organizations need to perform activities as close to the specified interval without exceeding it.
 
 
 ### Approaches for Implementing and Validating PCI DSS
@@ -120,19 +126,6 @@ Organizations now have two approaches for implementing and validating PCI DSS. O
 * Customize Approach: This new approach allows the organization to develop its controls to meet the security objectives. This approach should only be undertaken by a mature organization with well-established security programs. This approach is more appropriate for organizations utilizing newer technologies. The updated PCI DSS standard provides two appendices with templates to follow to complete the customized approach.
 
 
-## PCI DSS 4.0: Impactful Changes
-
-All changes are included in the Summary of Changes document. This section only details the most impactful changes.
-
-**Overarching Changes to Be Mindful of:**
-
-**Guidance vs Requirements - **Guidance clarifies requirements but doesn’t define them. Guidance may now provide some examples of technologies used, or approaches to meeting requirements, but it is not PCI’s defined approach to meeting a requirement.
-
-**Targeted Risk Analysis: **This allows for a customized, risk-based approach to meeting a requirement. Some requirements now allow the business to define the frequency that the Control is performed instead of the standard defining it.
-
-**Customized Approach: **This is a type of targeted risk analysis that allows for more flexibility in meeting a requirement with emerging technology.
-
-**Roles and Responsibilities: **The updated standard now requires formally defining the roles and responsibilities required to perform various tasks and controls to meet the requirements.
 
 
 ### Requirement 1 Updates:
