@@ -16,7 +16,7 @@ The symposium also added a lot of clarification on PCI’s perspective and inten
 PCI DSS v4.0 has been expanded in its philosophy to also be utilized to protect against threats and secure other elements of the payment card ecosystem beyond the Card Data Environment (CDE). As the payment industry continues to evolve, PCI has worked towards a more broad framework that can be used as an effective security baseline across fintech infrastructure.
 
 {: .box-note}
-**Let's Connect!** <br>I have taken detailed notes from the entire session for future reference. If you happened upon this page, via Linkedin or Google Search, please hop over to [LinkedIn](https://www.linkedin.com/in/speden/) to say hi and be sure to connect with me!
+**Let's Connect!** <br>I have taken detailed notes from the entire session for future reference. If you happened upon this page via Linkedin or Google Search, please hop over to [LinkedIn](https://www.linkedin.com/in/speden/) to say hi and be sure to connect with me!
 
 
 ### PCI DSS v4.0 Update Highlights
@@ -52,10 +52,10 @@ All changes are included in the Summary of Changes document. This section only d
   * PCI expects organizations to document their risk analysis and timeframes in policies and procedures, and adhere to them. The assessor’s job will be to verify completion per company policy.
   * Organizations need to perform activities as close to the specified interval without exceeding it.
 * **Customized Approach:** This is a type of targeted risk analysis that allows for more flexibility in meeting a requirement with emerging technology.
-* **Roles and Responsibilities:** The updated standard now requires formally defining the roles and responsibilities required to perform various tasks and controls to meet the requirements.
+* **Roles and Responsibilities:** The updated standard now requires formally defining the roles and responsibilities required to perform various tasks and controls to meet the requirements within poliices or procedures.
 * **Sampling for PCI DSS Assessments**
   * If automated processes are in use, 100% of the population should be used if possible
-  * If an automated process cannot be utilized, sampling is an option based on the assessor’s discretion.
+  * If an automated process cannot be utilized, sampling may be defined based on the assessor’s discretion (i.e., the firm's sampling policies).
 
 ### PCI DSS Applicability Information
 
