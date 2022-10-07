@@ -13,12 +13,12 @@ In July of 2022, PCI released the [PCI DSS v4.0 Global Symposium](https://events
 
 The symposium also added a lot of clarification on PCI’s perspective and intent behind many of the new requirements, that might not easily be gleaned from reading the updates on your own.
 
-I have taken detailed notes from the entire session for future reference. If you happened upon this page, via Linkedin or Google Search, please hope over to LinkedIn to say high and be sure to connect with me!
+PCI DSS v4.0 has been expanded in its philosophy to also be utilized to protect against threats and secure other elements of the payment card ecosystem beyond the Card Data Environment (CDE). As the payment industry continues to evolve, PCI has worked towards a more broad framework that can be used as an effective security baseline across fintech infrastructure.
 
-PCI DSS v4.0 has been expanded in its philosophy to also be utilized to protect against threats and secure other elements of the payment card ecosystem beyond the Card Data Environment (CDE). As the payment industry continues to evolve, PCI has worked towards a more broad framework that cans be used as an effective security baseline across fintech infrastructure.
+{: .box-note}I have taken detailed notes from the entire session for future reference. If you happened upon this page, via Linkedin or Google Search, please hop over to [LinkedIn](https://www.linkedin.com/in/speden/) to say hi and be sure to connect with me!
 
 
-## PCI DSS v4.0 Update Highlights
+### PCI DSS v4.0 Update Highlights
 
 PCI has published a [Summary of Changes](https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Standard/PCI-DSS-v3-2-1-to-v4-0-Summary-of-Changes-r1.pdf) document on its [Document Library](https://www.pcisecuritystandards.org/document_library/?category=pcidss&document=pci_dss) page. Please reference this document in addition to the notes I have captured from the PCI DSS v4.0 Global Symposium.
 
@@ -26,21 +26,21 @@ The 12 PCI requirements are now referred to as the 12 Principal Requirements. So
 
 Some key updates include:
 
-* Requirement 1 has been updated firewall terminology to more broadly address network security controls to support the broader range of technologies traditionally met by firewalls.
-* Requirement 2 has been officially expanded beyond addressing vendor-supplied defaults to address secure configuration management more broadly.
-* Requirement 3 has been expanded to emphasize that account data and not just cardholder data needs to be protected
-* Requirement 4 has been modified to add more specific requirements around the use of strong cryptography.
-* Requirement 5 has been updated to clarify that both systems and networks need to be protected from malicious software.
-* Requirement 6 has been updated to emphasize software rather than applications
-* Requirement 7 has been updated to require that access needs to be restricted for both system components and cardholders on a need-to-know basis
-* Requirement 8 has not had significant changes.
-* Requirement 9 has not had significant changes.
-* Requirement 10 has more specifically required that access be logged (and not simply tracked) and has been expanded to also include logging of access to system components.
-* Requirements 11 was been expanded to require the security testing of both system components and networks regularly.
-* Requirement 12 has been updated to better define the overarching goal of both security policies and procedures.
+* **Requirement** 1 has been updated firewall terminology to more broadly address network security controls to support the broader range of technologies traditionally met by firewalls.
+* **Requirement 2** has been officially expanded beyond addressing vendor-supplied defaults to address secure configuration management more broadly.
+* **Requirement 3** has been expanded to emphasize that account data and not just cardholder data needs to be protected
+* **Requirement 4** has been modified to add more specific requirements around the use of strong cryptography.
+* **Requirement 5** has been updated to clarify that both systems and networks need to be protected from malicious software.
+* **Requirement 6** has been updated to emphasize software rather than applications
+* **Requirement 7** has been updated to require that access needs to be restricted for both system components and cardholders on a need-to-know basis
+* **Requirement 8** has not had significant changes.
+* **Requirement 9** has not had significant changes.
+* **Requirement 10** has more specifically required that access be logged (and not simply tracked) and has been expanded to also include logging of access to system components.
+* **Requirements 11** was been expanded to require the security testing of both system components and networks regularly.
+* **Requirement 12** has been updated to better define the overarching goal of both security policies and procedures.
 
 
-## PCI DSS Applicability Information
+### PCI DSS Applicability Information
 
 PCI has updated its applicability information to add additional clarity around which entities the standard is addressed to. Some key modifications added in version 4.0 include:
 
@@ -48,7 +48,7 @@ PCI has updated its applicability information to add additional clarity around w
 * PCI DSS is intended for entities that store, process or transmit cardholder data and/or sensitive authentication data **AND**
 * Entities that could impact the security of the cardholder data environment
 
-Note that PCI restates that Sensitive Authentication Data (SAD) is never permitted to be stored, even if Primary Account Numbers (PAN) are not present. PCI DSS also applies to organizations that transmit or process SAD and are also required to comply with PCI DSS 4.0.
+{: .box-warning} Note that PCI restates that Sensitive Authentication Data (SAD) is never permitted to be stored, even if Primary Account Numbers (PAN) are not present. PCI DSS also applies to organizations that transmit or process SAD and are also required to comply with PCI DSS 4.0.
 
 
 ### Simplifying the Definition of Account Data, Cardholder Data, Card Data Environment, and Sensitive Authentication Data
