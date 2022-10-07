@@ -15,7 +15,8 @@ The symposium also added a lot of clarification on PCI’s perspective and inten
 
 PCI DSS v4.0 has been expanded in its philosophy to also be utilized to protect against threats and secure other elements of the payment card ecosystem beyond the Card Data Environment (CDE). As the payment industry continues to evolve, PCI has worked towards a more broad framework that can be used as an effective security baseline across fintech infrastructure.
 
-{: .box-note}I have taken detailed notes from the entire session for future reference. If you happened upon this page, via Linkedin or Google Search, please hop over to [LinkedIn](https://www.linkedin.com/in/speden/) to say hi and be sure to connect with me!
+{: .box-note}
+I have taken detailed notes from the entire session for future reference. If you happened upon this page, via Linkedin or Google Search, please hop over to [LinkedIn](https://www.linkedin.com/in/speden/) to say hi and be sure to connect with me!
 
 
 ### PCI DSS v4.0 Update Highlights
@@ -48,7 +49,8 @@ PCI has updated its applicability information to add additional clarity around w
 * PCI DSS is intended for entities that store, process or transmit cardholder data and/or sensitive authentication data **AND**
 * Entities that could impact the security of the cardholder data environment
 
-{: .box-warning} Note that PCI restates that Sensitive Authentication Data (SAD) is never permitted to be stored, even if Primary Account Numbers (PAN) are not present. PCI DSS also applies to organizations that transmit or process SAD and are also required to comply with PCI DSS 4.0.
+{: .box-warning}
+Note that PCI restates that Sensitive Authentication Data (SAD) is never permitted to be stored, even if Primary Account Numbers (PAN) are not present. PCI DSS also applies to organizations that transmit or process SAD and are also required to comply with PCI DSS 4.0.
 
 
 ### Updated PCI DSS Definitions
@@ -75,7 +77,8 @@ PCI has simplified the definition of multiple key terms including Cardholder Dat
 * System components, people, or processes that could impact the security of the CDE.
 
 
-{: .box-warning} **PCI Terms are Not Interchangeable**:  PCI has also reinforced its use of different terms for different types of data processed during payment card transactions. Different terms are purposely used to provide context around the security requirements required for the various data elements present in payment card transaction processing. <br>For example- if PCI DSS states that the PAN needs encrypted, they are only requiring encryption of PAN and not the broader family of cardholder data.
+{: .box-warning}
+**PCI Terms are Not Interchangeable**:  PCI has also reinforced its use of different terms for different types of data processed during payment card transactions. Different terms are purposely used to provide context around the security requirements required for the various data elements present in payment card transaction processing. <br>For example- if PCI DSS states that the PAN needs encrypted, they are only requiring encryption of PAN and not the broader family of cardholder data.
 
 **Relationship between PCI DSS and PA DSS**
 
