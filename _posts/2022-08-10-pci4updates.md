@@ -73,39 +73,36 @@ Note that PCI restates that Sensitive Authentication Data (SAD) is never permitt
 PCI has simplified the definition of multiple key terms including Cardholder Data, Card Data Environment, and Sensitive Authentication Data
 
 **Cardholder Data (CHD) includes:**
-
 * Primary Account Number (PAN)
 * Cardholder Name
 * Expiration Date
 * Service Code (The Service Code is a 3-digit value encoded into the magnetic stripe on the back of your credit and debit cards.)
 
 **Sensitive Authentication Data (SAD) includes:**
-
 * Full track data (magnetic stripe data or equivalent data on a chip)
 * Card verification code
 * PINs/PIN block
 
 **Card Data Environment (CDE) includes:**
-
 * System components, people, and processes that store, process, and transmit CHD and/or SAD
 * System components that may not store, process, transmit CHD or SAD but have unrestricted access to system components that do store, process, transmit CHD or SAD
 * System components, people, or processes that could impact the security of the CDE.
 
 **Bespoke and Customer Software**
-
 * Bespoke software is defined as software developed by a 3rd party to the organization’s specific specifications.
 * Customer software is defined as software developed by the organization for its use.
 
 {: .box-warning}
-**PCI Terms are Not Interchangeable**:  PCI has also reinforced its use of different terms for different types of data processed during payment card transactions. Different terms are purposely used to provide context around the security requirements required for the various data elements present in payment card transaction processing. <br><br>For example- if PCI DSS states that the PAN needs encrypted, they are only requiring encryption of PAN and not the broader family of cardholder data.
+**PCI Terms are Not Interchangeable**:  PCI has also reinforced its use of different terms for different types of data processed during payment card transactions. Different terms are purposely used to provide context around the security requirements required for the various data elements present in payment card transaction processing. <br><br>For example- if PCI DSS states that only the PAN needs encrypted, they are only requiring encryption of the PAN and not the broader family of cardholder data.
+
 
 ### Use of Third-Party Service Providers (Requirement 12.8):
 
-* **When relying on Third Party Service Providers to demonstrate PCI DSS Compliance:**
-  * Third parties do not need to be PCI DSS certified for the assessed organization to become certified **BUT**
+When relying on Third Party Service Providers to demonstrate PCI DSS Compliance:
+* Third parties do not need to be PCI DSS certified for the assessed organization to become certified **BUT**
   * If a third party is used to meet a PCI requirement, the organization cannot be compliant without the third party also demonstrating they meet the requirements.
-  * Third party compliance must be validated via their Attestation Of Compliance, **OR** via the organization's PCI assessment extending to the third party (referred to as an **on-demand assessment**).
-  * The third party service provider's evidence of compliance can be obtained via the Payment Brand List(s) of PCI DSS Compliant Service Providers (e.g., (Visa)[https://www.visa.com/splisting/searchGrsp.do]) if it is clear that the certification is related to the services used.
+* Third party compliance must be validated via their Attestation Of Compliance, **OR** via the organization's PCI assessment extending to the third party (referred to as an **on-demand assessment**).
+* The third party service provider's evidence of compliance can be obtained via the Payment Brand List(s) of PCI DSS Compliant Service Providers (e.g., [Visa](https://www.visa.com/splisting/searchGrsp.do)) if it is clear that the certification is related to the services used.
 
 
 ### Approaches for Implementing and Validating PCI DSS
