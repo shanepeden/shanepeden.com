@@ -51,5 +51,6 @@ Compensating controls are used often in legacy applications.
 * The customized approach allows organizations with mature risk-management practices to implement custom controls that meet the Customized Approach Objective. The approach may be completely different from the defined requirement.
  * PCI DSS Appendix D and E provide information and templates to support the implementation of a customized approach.
 
+
  {: .box-note}
  **Have More Questions? Let's Connect!** <br>I've helped dozens of companies prepare for PCI DSS, ISO 27001, HITRUST, SOC 2, and more! If you have any questions, please hop over to [LinkedIn](https://www.linkedin.com/in/speden/) to say hi and be sure to connect with me! If you're in the Atlanta area, [we can also grab a coffee](https://shanepeden.github.io/shanepeden.com/aboutme/)!
