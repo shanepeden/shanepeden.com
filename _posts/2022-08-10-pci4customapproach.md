@@ -9,9 +9,8 @@ comments: false
 
 ## How to use the PCI DSS Customized Approach
 
-**Quick Introduction**
 {: .box-note}
-In July of 2022, PCI released the [PCI DSS v4.0 Global Symposium](https://events.pcisecuritystandards.org/pcidss4-0-global-symposium?utm_campaign=2021%2520Community%2520Meetings), which provided in-depth coverage of what is new in version 4.0 of the standard. This three-hour-long presentation provided a great deal of depth in a condensed format, saving the viewer from having to thoroughly read through all the updated documentation.<br><br>I have taken detailed notes from the entire session for future reference. Also check out my [overview of critical updates in PCI DSS 4.0](https://shanepeden.github.io/shanepeden.com/2022-08-10-pci4updates/).
+**Quick Introduction** <br>In July of 2022, PCI released the [PCI DSS v4.0 Global Symposium](https://events.pcisecuritystandards.org/pcidss4-0-global-symposium?utm_campaign=2021%2520Community%2520Meetings), which provided in-depth coverage of what is new in version 4.0 of the standard. This three-hour-long presentation provided a great deal of depth in a condensed format, saving the viewer from having to thoroughly read through all the updated documentation.<br><br>I have taken detailed notes from the entire session for future reference. Also check out my [overview of critical updates in PCI DSS 4.0](https://shanepeden.github.io/shanepeden.com/2022-08-10-pci4updates/).
 
 
 In PCI DSS version 4, organizations have a new option for demonstrating compliance, referred to as the customized approach.
