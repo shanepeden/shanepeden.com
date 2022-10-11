@@ -14,7 +14,7 @@ In July of 2022, PCI released the [PCI DSS v4.0 Global Symposium](https://events
 In this post, we will cover PCI DSS's new customized approach option, and highlight clarifications on how and when compensating controls should be used.
 
 {: .box-note}
-**Let's Connect!** <br>I have taken detailed notes from the entire session for future reference. If you happened upon this page via Linkedin or Google Search, please hop over to [LinkedIn](https://www.linkedin.com/in/speden/) to say hi and be sure to connect with me!
+**NOTE!** <br>I have taken detailed notes from the entire session for future reference. Also check out my [overview of critical updates in PCI DSS 4.0](https://shanepeden.github.io/shanepeden.com/2022-08-10-pci4updates/). <br><br>If you happened upon this page via Linkedin or Google Search, please hop over to [LinkedIn](https://www.linkedin.com/in/speden/) to say hi and be sure to connect with me!
 
 
 ### How to use the PCI DSS Customized Approach
@@ -53,4 +53,4 @@ Compensating controls are used often in legacy applications.
 
 
  {: .box-note}
- **Have More Questions? Let's Connect!** <br>I've helped dozens of companies prepare for PCI DSS, ISO 27001, HITRUST, SOC 2, and more! If you have any questions, please hop over to [LinkedIn](https://www.linkedin.com/in/speden/) to say hi and be sure to connect with me! If you're in the Atlanta area, [we can also grab a coffee](https://shanepeden.github.io/shanepeden.com/aboutme/)!
+ **Have More Questions? Let's Connect!** <br>I've helped dozens of companies prepare for PCI DSS, ISO 27001, HITRUST, SOC 2, and more! If you have any questions, please hop over to [LinkedIn](https://www.linkedin.com/in/speden/) to say hi and be sure to connect with me! <br><br>If you're in the Atlanta area, [we can also grab a coffee](https://shanepeden.github.io/shanepeden.com/aboutme/)!
