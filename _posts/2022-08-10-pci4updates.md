@@ -44,7 +44,7 @@ Some key updates include:
 
 All changes are included in the Summary of Changes document. This section only details the most impactful changes.
 
-**Overarching Changes to Be Mindful of:**
+**High Impact Changes to Be Mindful of:**
 
 * **Guidance vs Requirements:** Guidance clarifies requirements but doesn’t define them. Guidance may now provide some examples of technologies used, or approaches to meeting requirements, but it is not PCI’s defined approach to meeting a requirement.
 * **Targeted Risk Analysis:** Some requirements now allow the business to define the frequency that the Control is performed based on the business needs and risks relevant to the organization, as opposed to the standard defining the frequency.
@@ -117,7 +117,7 @@ Organizations now have two approaches for implementing and validating PCI DSS. O
 ### Other Highlights of Note
 A few other pieces of interesting information were shared in the PCI DSS 4.0 highlighted updates.
 
-* **Relationship between PCI DSS and PA DSS:**PA DSS is being deprecated in favor of the PCI Software Security Framework PCI SSF can be leveraged in conjunction with requirement 6 of PCI DSS as needed.
+* **Relationship between PCI DSS and PA DSS:** PA DSS is being deprecated in favor of the PCI Software Security Framework PCI SSF can be leveraged in conjunction with requirement 6 of PCI DSS as needed.
 * **Expansion of Rogue Wireless Detection Requirements:** PCI requires rogue wireless detection even when wireless is not used within the CDE, and a policy prohibits the use of wireless devices.
 * **Encrypted Cardholder Data and the Impact to Third Party Service Providers:** If a third party receives encrypted data and cannot decrypt the data, it may be provided out of scope.
 
